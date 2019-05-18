@@ -61,6 +61,9 @@ public class ClienteDao {
 			stmt.execute();
 		}
 	}
+	public List<Cliente> getClientes() throws SQLException{
+		return listar();
+	}
 	
 	public List<Cliente> listar() throws SQLException {
 		String sql = "select * from clientes";

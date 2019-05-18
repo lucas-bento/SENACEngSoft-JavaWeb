@@ -7,7 +7,8 @@
 <title>Teste Insert Cliente</title>
 </head>
 <body>
-<form action="insertCliente">
+<form action="insertCliente" method="post">
+
 	Nome: <input type="text" name="nome"/> <br />
 	E-Mail: <input type="text" name="email"/> <br />
 	Endereço: <input type="text" name="endereco"/> <br />
